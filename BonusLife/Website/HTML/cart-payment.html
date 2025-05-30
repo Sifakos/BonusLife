@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Rubik Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/46667652d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!--Sansation Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\iosif\Desktop\Codes\BonusLife\Website\CSS\cart-payment.css">
+    <script src="C:\Users\iosif\Desktop\Codes\BonusLife\Website\JS\cart-payment.js"></script>
+    <title>Payment-Process</title>
+</head>
+<body>
+    <div class="payment-box">
+        <h2 class="payment-process">PAYMENT PROCESS</h2>
+        <form class="payment-form" id="payment-form">
+            <input class="credit-card" id="credit-card" type="text" maxlength="19" placeholder="💳Credit-Card Number">
+            <input class="cvv" id="cvv" type="password" maxlength="3" placeholder="🔒CVV">
+            <input class="expiry-date" id="expiry-date" type="date" placeholder="📅Expiry Date">
+            <input class="location-delivery" id="location-delivery" type="text" placeholder="📍Delivery Location" readonly>
+            <div class="map" id="map"></div>
+            <button class="pay-cart" id="pay-cart">PURCHASE</button>
+        </form>
+    </div>
+</body>
+</html>

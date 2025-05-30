@@ -1,0 +1,74 @@
+body {background: linear-gradient(180deg,rgb(195, 0, 255, 1) 0%, rgb(0, 212, 255, 1) 100%);
+      background-repeat: no-repeat;
+      background-attachment: fixed;}
+
+div.payment-box {position: absolute;
+                 top: 10px;
+                 left: 500px;
+                 width: 400px;
+                 height: 500px;
+                 background-color: rgb(255, 255, 255, 0.9);
+                 border: 0px solid rgb(0, 0, 0);
+                 border-radius: 20px;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 margin: 50px auto;
+                 text-align: center;}
+            
+h2.payment-process {position: absolute;
+                    top: 30px;
+                    left: 80px;
+                    font-family: "Rubik";
+                    color: rgb(195, 0, 255);}
+
+input.credit-card {position: absolute;
+                   top: 130px;
+                   left: 70px;
+                   border-radius: 10px;
+                   height: 30px;
+                   width: 250px;
+                   border: 0px solid rgb(0, 0, 0);}
+
+input.cvv {position: absolute;
+           top: 210px;
+           left: 70px;
+           border-radius: 10px;
+           height: 30px;
+           width: 250px;
+           border: 0px solid rgb(0, 0, 0);}
+
+input.expiry-date {position: absolute;
+                   top: 290px;
+                   left: 70px;
+                   border-radius: 10px;
+                   height: 30px;
+                   width: 250px;
+                   border: 0px solid rgb(0, 0, 0);}
+
+input.location-delivery {position: absolute;
+                         top: 370px;
+                         left: 70px;
+                         border-radius: 10px;
+                         height: 30px;
+                         width: 250px;
+                         border: 0px solid rgb(0, 0, 0);}
+
+div.map {display: none; 
+         height: 400px; 
+         width: 400px; 
+         position: absolute; 
+         border-radius: 20px;
+         top: 100px; 
+         left: -420px;}
+
+button.pay-cart {position: absolute;
+                 border-radius: 20px;
+                 background-color: rgb(195, 0, 255);
+                 border: 0px solid rgb(0, 0, 0);
+                 font-family: "Rubik";
+                 color: rgb(255,255,255);
+                 height: 50px;
+                 width: 100px;
+                 top: 440px;
+                 left: 140px;}

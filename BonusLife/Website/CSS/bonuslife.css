@@ -1,0 +1,217 @@
+div.section-1 {background-color: rgb(0,0,0,0.9);
+               width: 100%;
+               height: 100px;}
+
+div.section-2 {background-image: url("https://www.cnet.com/a/img/resize/3b329c67be4e5c352be8a3075ae55fe862d05919/hub/2019/03/13/8008a22b-6078-45a6-8e22-a4f9e018bfff/gettyimages-1097026358.jpg?auto=webp&fit=crop&height=900&width=1200");
+               width: 100%;
+               height: 800px;}
+
+h2.welcome-message {position: absolute;
+                    font-family: "Sansation";
+                    color: rgb(195, 0, 255);
+                    top: 25px;
+                    left: 40px;}
+
+h2.products {position: absolute;
+             font-family: "Sansation";
+             color: rgb(195, 0, 255);
+             top: 25px;
+             left: 450px;}
+
+h2.shopping-cart {position: absolute;
+                  font-family: "Sansation";
+                  color: rgb(195, 0, 255);
+                  top: 25px;
+                  left: 600px;}
+
+h2.user-profile {position: absolute;
+                 font-family: "Sansation";
+                 color: rgb(195, 0, 255);
+                 top: 25px;
+                 left: 710px;}
+
+h2.stores {position: absolute;
+           font-family: "Sansation";
+           color: rgb(195, 0, 255);
+           top: 25px;
+           left: 850px;}
+
+img.bonuslife-logo {position: absolute;
+                    border-radius: 10px;
+                    height: 90px;
+                    width: 90px;
+                    top: 20px;
+                    left: 1150px;}
+
+div.bonuslife-box {position: absolute;
+                   top: 140px;
+                   left: 100px;
+                   width: 700px;
+                   height: 300px;
+                   background-color: rgb(255, 255, 255, 0.9);
+                   border: 0px solid rgb(0, 0, 0);
+                   border-radius: 20px;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+                   margin: 50px auto;
+                   text-align: center;}
+
+h2.box-message-1 {position: absolute;
+                  font-family: "Sansation";
+                  color: rgb(195, 0, 255);
+                  top: 20px;
+                  left: 230px;}
+
+h2.box-message-2 {position: absolute;
+                  font-family: "Sansation";
+                  color: rgb(195, 0, 255);
+                  top: 70px;
+                  left: 120px;}
+
+h2.box-message-3 {position: absolute;
+                  font-family: "Sansation";
+                  color: rgb(195, 0, 255);
+                  top: 130px;
+                  left: 170px;}
+
+button.nutrition-info {position: absolute;
+                       border-radius: 20px;
+                       background-color: rgb(195, 0, 255);
+                       border: 0px solid rgb(0, 0, 0);
+                       font-family: "Rubik";
+                       color: rgb(255,255,255);
+                       height: 50px;
+                       width: 200px;
+                       top: 210px;
+                       left: 250px;}
+
+div.info-box-1 {position: absolute;
+                top: 600px;
+                left: 20px;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(195, 0, 255, 0.9);
+                border: 0px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                text-align: center;}
+
+h2.foundation-message {position: absolute;
+                       top: 30px;
+                       left: 0px;
+                       color:rgb(255, 255, 255);
+                       font-family: "Rubik";}
+                    
+i.fa-calendar-days {position: absolute;
+                    top: 130px;
+                    left: 85px;
+                    color:rgb(255, 255, 255);
+                    font-size: 25px;}
+
+div.info-box-2 {position: absolute;
+                top: 600px;
+                left: 270px;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(195, 0, 255, 0.9);
+                border: 0px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                text-align: center;}
+
+h2.orders-message {position: absolute;
+                   top: 30px;
+                   left: 0px;
+                   color:rgb(255, 255, 255);
+                   font-family: "Rubik";}
+
+i.fa-cart-shopping {position: absolute;
+                    top: 130px;
+                    left: 85px;
+                    color:rgb(255, 255, 255);
+                    font-size: 25px;}
+
+div.info-box-3 {position: absolute;
+                top: 600px;
+                left: 520px;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(195, 0, 255, 0.9);
+                border: 0px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                text-align: center;}
+
+h2.stores-message {position: absolute;
+                   top: 30px;
+                   left: 0px;
+                   color:rgb(255, 255, 255);
+                   font-family: "Rubik";}
+
+i.fa-store {position: absolute;
+            top: 130px;
+            left: 85px;
+            color:rgb(255, 255, 255);
+            font-size: 25px;}
+
+div.info-box-4 {position: absolute;
+                top: 600px;
+                left: 770px;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(195, 0, 255, 0.9);
+                border: 0px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                text-align: center;}
+
+h2.customers-message {position: absolute;
+                      top: 30px;
+                      left: 0px;
+                      color:rgb(255, 255, 255);
+                      font-family: "Rubik";}
+
+i.fa-users {position: absolute;
+            top: 130px;
+            left: 85px;
+            color:rgb(255, 255, 255);
+            font-size: 25px;}
+
+div.info-box-5 {position: absolute;
+                top: 600px;
+                left: 1020px;
+                width: 200px;
+                height: 200px;
+                background-color: rgb(195, 0, 255, 0.9);
+                border: 0px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 50px auto;
+                text-align: center;}
+
+h2.employees-message {position: absolute;
+                      top: 30px;
+                      left: 0px;
+                      color:rgb(255, 255, 255);
+                      font-family: "Rubik";}
+
+i.fa-user-tie {position: absolute;
+               top: 130px;
+               left: 85px;
+               color:rgb(255, 255, 255);
+               font-size: 25px;}
